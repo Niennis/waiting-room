@@ -1,0 +1,120 @@
+body{
+  /* width: 1270px;
+  height: 720px; */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #004D40;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4caf89;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #CDDC39;
+  color: black;
+}
+
+.boxCont ul li{
+  list-style-type: none;
+}
+
+.boxCont {
+  background-color: #E6EE9C;
+  border: 1px solid #CDDC39;
+  border-radius: 10px;
+  /* max-width: 40%; */
+  min-width: 40%;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+#root{
+  display: flex;  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.patientCont{
+justify-content: center;
+flex-direction: column;
+
+}
+
+#patientCont{
+  border: 1px solid #CDDC39;
+  padding: 4vh;
+  height: 84vh;
+  background-color: #E6EE9C;
+}
+
+#dataPatient{
+  /* background-color: #4caf89; */
+  flex-wrap: wrap;
+  max-width: 35vw;
+  align-items: center;
+  height: fit-content;
+}
+
+#dataPatient div{
+  margin: 1em;
+}
+
+#dataPatient input, textarea, select, button{
+  border-radius: 5px;
+  background-color: #eefacf;
+}
+
+#dataPatient button{
+  background-color: #004D40;
+  color: #f2f2f2;
+  padding: 1vh;
+}
+
+.queuePatient{
+  background-color: #E6EE9C;
+  border: 1px solid #CDDC39;
+  border-radius: 5px;
+  min-width: 40%;
+  line-height: 0.5;
+  padding: 1vw;
+  margin: 1vh;
+}
+
+.queuePatient button, .boxCont button{
+  background-color: #004D40;
+  border: 1px solid #004D40;
+  border-radius: 5px;
+  color: white;
+  padding: 1vh;
+}
+
+#nextPatientContainer{
+  border: 1px solid #CDDC39;
+  border-radius:10px;
+  background-color: #E6EE9C;
+  color: #004D40;
+  padding: 6vw;
+  align-self: center;
+  font-size: 2em;
+  margin-top: 4vw;
+}
+
+#description{
+  display: block;
+}
